@@ -246,7 +246,7 @@
                       <br />
 
                       <div class="alert-message success">
-                          <center>Before starting cjdns, you need to get info from people so you can actually connect to the network! Drop by <b>#cjdns</b> on <b>EFNet.</b></center>
+                          <center>Before starting cjdns, you need to get info from people so you can actually connect to the network! Drop by <b>#cjdns</b> on <b>EFnet.</b></center>
                       </div>
                       <code>sudo -u cjdns ./cjdroute &lt; cjdroute.conf</code><br />
 
