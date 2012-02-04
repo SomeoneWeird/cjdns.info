@@ -237,7 +237,7 @@
                         <h3>CJDNS (#2)</h3>
                 </div>
 
-                <div class="span15 offset2">
+                <div class="span13 offset2">
                       <br />
                       <code>./cjdroute --genconf > cjdroute.conf</code><br />
                       <span class="label success">edit cjdroute.conf - set tunDevice to the 'tun' from above</span><br />
@@ -280,7 +280,7 @@
 
           <div class="row showgrid">
 
-            <div class="span12 offset2">
+            <div class="span9 offset2">
                 
                 This error happens when you have an outdated `ip` version.<br /><br />
                 Download a newer version from <a href="http://ircerr.bt-chat.com/cjdns/ip.tar.gz"><big>here</big></a>.<br /><br />
