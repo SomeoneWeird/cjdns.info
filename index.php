@@ -66,7 +66,7 @@
         <div class="container">
           <a href="#" onClick="goToByScroll('overview');" class="brand">CJDNS<sup><span class="label success">beta</span></sup></a>
           <ul class="nav">
-            <li class=""><a href="#home" onClick="goToByScroll('overview');">Home</a></li>
+            <li><a href="#home" onClick="goToByScroll('overview');">Home</a></li>
             <li><a href="#install" onClick="goToByScroll('install');">Installation</a></li>
             <li><a href="#config" onClick="goToByScroll('config');">Configuration</a></li>
             <li><a href="#trouble" onClick="goToByScroll('trouble');">Troubleshooting</a></li>
@@ -361,7 +361,7 @@
 
 
 
-    </divdiv> <!-- /container -->
+    </div> <!-- /container -->
 
 </section> <!-- trouble -->
 
