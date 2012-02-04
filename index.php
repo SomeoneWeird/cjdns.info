@@ -118,17 +118,17 @@
           <div class="row">
             <div class="span-one-third">
               <p><a href="#" class="btn primary" onClick="goToByScroll('install');">Installation</a></p>
-              <p>Need help with installation of cjdns? Click here.</p>
+              <p>Need help with installation of cjdns?</p>
               <br />
             </div>
             <div class="span-one-third">
               <p><a href="#" class="btn primary" onClick="goToByScroll('config');">Configuration</a></p>
-               <p>Installed, but can't configure it? Click here!</p>
+               <p>Installed, but can't configure it?</p>
                <br />
            </div>
             <div class="span-one-third">
               <p><a href="#" class="btn primary" onClick="goToByScroll('trouble');">Troubleshooting</a></p>
-              <p>Oops. Something gone wrong and can't figure it out? Click here!</p>
+              <p>Oops. Need help?</p>
             </div>
           </div>
           <br />
@@ -168,8 +168,7 @@
                       <code>cd libevent</code><br />
                       <code>./configure</code><br />
                       <code>make</code><br />
-                      <span class="label warning">Run the following command as root (or use sudo).</span><br />
-                      <code>make install</code>
+                      <code>sudo make install</code>
                       <br /><br />
 
                 </div>
@@ -280,14 +279,14 @@
 
           <div class="row showgrid">
 
-            <div class="span9 offset2">
+            <div class="span10 offset2">
                 
-                This error happens when you have an outdated `ip` version.<br /><br />
-                Download a newer version from <a href="http://ircerr.bt-chat.com/cjdns/ip.tar.gz"><big>here</big></a>.<br /><br />
+                This error happens when your system has an outdated `ip` binary.<br />
+                Download a newer version from <a href="http://ircerr.bt-chat.com/cjdns/ip.tar.gz"><big>here</big></a>.<br />
                 Place the newer IP binary in <code>/usr/local/bin</code><br /><br />
 
                 <div class="alert-message warning">
-                    <p><strong>Dont</strong> replace your systems version of IP with the one you just downloaded!</p>
+                    <p><strong>Don't</strong> replace your system's version of the `ip` binary with the one you just downloaded!</p>
                 </div>
 
             </div>
@@ -339,7 +338,7 @@
 
           <div class="row showgrid">
                <div class="span9 offset1">
-                        <h3>Help! I dont have an IPv6 address!</h3><br />
+                        <h3>Help! I don't have an IPv6 address!</h3><br />
                </div>
 
           </div>
