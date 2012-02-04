@@ -66,7 +66,7 @@
         <div class="container">
           <a href="#" onClick="goToByScroll('overview');" class="brand">CJDNS<sup><span class="label success">beta</span></sup></a>
           <ul class="nav">
-            <li><a href="#home" onClick="goToByScroll('overview');">Home</a></li>
+            <li class=""><a href="#home" onClick="goToByScroll('overview');">Home</a></li>
             <li><a href="#install" onClick="goToByScroll('install');">Installation</a></li>
             <li><a href="#config" onClick="goToByScroll('config');">Configuration</a></li>
             <li><a href="#trouble" onClick="goToByScroll('trouble');">Troubleshooting</a></li>
@@ -117,21 +117,18 @@
           <!-- Example row of columns -->
           <div class="row">
             <div class="span-one-third">
-              <h2>Installation</h2>
+              <p><a href="#" class="btn primary" onClick="goToByScroll('install');">Installation</a></p>
               <p>Need help with installation of cjdns? Click here.</p>
               <br />
-              <p><a href="#" class="btn primary" onClick="goToByScroll('install');">Install Section</a></p>
             </div>
             <div class="span-one-third">
-              <h2>Configuration</h2>
+              <p><a href="#" class="btn primary" onClick="goToByScroll('config');">Configuration</a></p>
                <p>Installed, but can't configure it? Click here!</p>
                <br />
-              <p><a href="#" class="btn primary" onClick="goToByScroll('config');">Config Section</a></p>
            </div>
             <div class="span-one-third">
-              <h2>Troubleshooting</h2>
+              <p><a href="#" class="btn primary" onClick="goToByScroll('trouble');">Troubleshooting</a></p>
               <p>Oops. Something gone wrong and can't figure it out? Click here!</p>
-              <p><a href="#" class="btn primary" onClick="goToByScroll('trouble');">Trouble Section</a></p>
             </div>
           </div>
           <br />
@@ -154,13 +151,13 @@
     <div class="container">
 
                   <div class="page-header">
-                      <h1>Installation <b><a href="https://github.com/cjdelisle/cjdns/" class="btn primary">CJDNS</a> <a href="https://github.com/libevent/libevent" class="btn primary">LibEvent</a></b></h1>
+                      <h1>Installation <b><a href="https://github.com/cjdelisle/cjdns/" class="btn success">CJDNS</a> <a href="https://github.com/libevent/libevent" class="btn success">LibEvent</a></b></h1>
                   </div>
 
 
           <div class="row showgrid">
           
-                <div class="span8 offset1">
+                <div id="installlibevent" class="span8 offset1">
                         <h3>LibEvent</h3>
                 </div>
 
@@ -179,7 +176,7 @@
                      
                 <br /><br /><br />
 
-               <div class="span8 offset1">
+               <div id="installcjdns" class="span8 offset1">
                         <h3>CJDNS</h3>
                </div>
                 
@@ -297,6 +294,25 @@
 
           </div>
 
+          <div class="row showgrid">
+               <div class="span9 offset1">
+                        <h3>Created more than one Tun device?</h3><br />
+               </div>
+
+          </div>
+
+          <div class="row showgrid">
+
+            <div class="span12 offset2">
+                
+                <code>/sbin/ip tuntap del mode tun tun<big><i>&lt;devicenumber&#62;</i></big></code>
+
+            </div>
+
+          </div>
+
+          <br />
+
 
           <div class="row showgrid">
                <div class="span9 offset1">
@@ -319,11 +335,33 @@
 
           </div>
 
+          <br />
+
+          <div class="row showgrid">
+               <div class="span9 offset1">
+                        <h3>Help! I dont have an IPv6 address!</h3><br />
+               </div>
+
+          </div>
+
+          <div class="row showgrid">
+
+            <div class="span12 offset2">
+                
+                <span class="label success">tl;dr doesnt matter.</span><br />
+                Well, your in luck. CJDNS actually doesnt need a native v6 address, it routes everything over IPv4.<br />
+                CJDNS only uses the private address range for IPv6 (fc00::/8) so that you can have you own address<br />
+                inside of Hyperboria. So it encapsulates everthing IPv6 into IPv4 packets! Pretty cool aye!<br />
+
+            </div>
+
+          </div>
 
 
 
 
-    </div> <!-- /container -->
+
+    </divdiv> <!-- /container -->
 
 </section> <!-- trouble -->
 
@@ -354,6 +392,7 @@
 
               <div class="span9 offset2">
                   
+                  <a href="https://github.com/cjdelisle/cjdns/blob/master/rfcs/Whitepaper.md">CJDNS Whitepaper</a><br />
                   <a href="http://[fc38:4c2c:1a8f:3981:f2e7:c2b9:6870:6e84]/cjdns.html">ircerr's CJDNS page.</a><br />
                   <a href="http://[fc5d:baa5:61fc:6ffd:9554:67f0:e290:7535]">Mikey_'s NodeInfo</a><br />
                   <a href="http://[fcd5:c432:affb:7e77:a754:74e0:5e98:12d3]">Mikey_'s Git Repo</a><br />
