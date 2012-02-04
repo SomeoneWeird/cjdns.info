@@ -64,9 +64,9 @@
  <div class="topbar" data-scrollspy="scrollspy">
       <div class="fill">
         <div class="container">
-          <a href="#" onClick="goToByScroll('overview');" class="brand">CJDNS<sup><span class="label success">beta</span></sup></a>
+          <a href="#" onClick="goToByScroll('home');" class="brand">CJDNS<sup><span class="label success">beta</span></sup></a>
           <ul class="nav">
-            <li><a href="#home" onClick="goToByScroll('overview');">Home</a></li>
+            <li><a href="#home" onClick="goToByScroll('home');">Home</a></li>
             <li><a href="#install" onClick="goToByScroll('install');">Installation</a></li>
             <li><a href="#config" onClick="goToByScroll('config');">Configuration</a></li>
             <li><a href="#trouble" onClick="goToByScroll('trouble');">Troubleshooting</a></li>
@@ -83,7 +83,7 @@
     <header class="jumbotron" id="overview">
       <div id="banner" class="inner" style="background-image: url(assets/img/back1.png);">
 
-          <div class="row showgrid">
+          <div id="home" class="row showgrid">
 
               <center>
                   <br /><br /><br /><br />
@@ -237,7 +237,7 @@
                         <h3>CJDNS (#2)</h3>
                 </div>
 
-                <div class="span12 offset2">
+                <div class="span15 offset2">
                       <br />
                       <code>./cjdroute --genconf > cjdroute.conf</code><br />
                       <span class="label success">edit cjdroute.conf - set tunDevice to the 'tun' from above</span><br />
@@ -245,8 +245,8 @@
                       <span class="label success">Add the commands from ./cjdroute --getcmds &lt; cjdroute.conf to /etc/rc.local</span><br />
                       <br />
 
-                      <div class="alert-message info">
-                          <center>Before starting cjdns, you need to get info from people so you can actually connect to the network! Drop by <b>#cjdns</b> on <b>EfNet.</b></center>
+                      <div class="alert-message success">
+                          <center>Before starting cjdns, you need to get info from people so you can actually connect to the network! Drop by <b>#cjdns</b> on <b>EFNet.</b></center>
                       </div>
                       <code>sudo -u cjdns ./cjdroute &lt; cjdroute.conf</code><br />
 
@@ -323,7 +323,7 @@
 
           <div class="row showgrid">
 
-            <div class="span9 offset2">
+            <div class="span12 offset2">
                 
                 Sometimes CJDNS will fail to start properly on a system thats using OpenVZ (as a guest).<br />
                 Instead of starting CJDNS the normal way, use <br />
