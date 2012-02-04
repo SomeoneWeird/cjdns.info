@@ -1,0 +1,23 @@
+body { 
+	background-image: url(assets/img/back.png); 
+	background-repeat: repeat;
+}
+
+.topbox{
+    background-image: url(assets/img/back1.png);
+    background-repeat: repeat;
+    position:fixed;
+    top:-20px;
+    left:30%;
+    right:30%;
+    background-color:#fff;
+    color:#7F7F7F;
+    padding:20px;
+    border:2px solid #ccc;
+    -moz-border-radius: 20px;
+    -webkit-border-radius:20px;
+    -khtml-border-radius:20px;
+    -moz-box-shadow: 0 1px 5px #333;
+    -webkit-box-shadow: 0 1px 5px #333;
+}
+
