@@ -1,0 +1,101 @@
+# cjdns.info Russian translation
+# Copyright (C) 2012 Project Meshnet
+# This file is distributed under the same license as the cjdns.info package.
+# Komachi Onozuka <komachi.onozuka@ya.ru>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cjdns.info\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-16 18:47+0400\n"
+"PO-Revision-Date: 2012-12-16 22:10+0300\n"
+"Last-Translator: Komachi Onozuka <komachi.onozuka@ya.ru>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: index.php:47
+msgid "Home"
+msgstr "Главная"
+
+#: index.php:48
+msgid "About"
+msgstr "О проекте"
+
+#: index.php:49
+msgid "Chat"
+msgstr "Чат"
+
+#: index.php:50
+msgid "Wiki"
+msgstr "Вики"
+
+#: index.php:51
+msgid "Whitepaper"
+msgstr "Документация"
+
+#: index.php:65
+msgid ""
+"is a routing engine designed for security, scalability, speed and ease of "
+"use. The dream: You type <code>./cjdroute</code> and give it an interface "
+"which connects another node and it gives you an ipv6 address generated from "
+"a public encryption key and a virtual network card (TUN device) which you "
+"can use to send packets to anyone in the cjdns network to which you are "
+"connected."
+msgstr ""
+"— это маршрутизатор, разработанный для безопасности, масштабируемости, "
+"скорости и легкости использования. Мечта: вы вводите <code>./cjdroute</code> "
+"и выбираете интерфейс, который соединяется с другим узлом, получаете ipv6 "
+"адрес, сгенерированный из открытого ключа шифрования, и виртуальную сетевую "
+"карту (TUN устройство), которую вы можете использовать для отправки пакетов "
+"кому-нибудь в сети cjdns, к которой вы подключены."
+
+#: index.php:69
+msgid "Install"
+msgstr "Установка"
+
+#: index.php:70
+msgid "has been ported to"
+msgstr "был портирован на"
+
+#: index.php:70
+msgid "several"
+msgstr "несколько"
+
+#: index.php:70
+msgid "platforms, and is quite easy to install."
+msgstr "платформ и довольно прост в установке."
+
+#: index.php:71
+msgid "View install guide"
+msgstr "Посмотреть гид по установке"
+
+#: index.php:74
+msgid "Configure"
+msgstr "Конфигурация"
+
+#: index.php:75
+msgid ""
+"only requires one simple modification, peering info. Update cjdroute.conf "
+"with public peers until you can locate a trusted one."
+msgstr ""
+"требует только одну простую модификацию — обновление пиринговой информации. "
+"Добавьте в cjdroute.conf публичных пиров, пока вы не сможете найти "
+"доверенных."
+
+#: index.php:76
+msgid "View public peers"
+msgstr "Посмотреть публичных пиров"
+
+#: index.php:79
+msgid "Contribute"
+msgstr "Сделайте вклад"
+
+#: index.php:80
+msgid "is in early Alpha stage. Contributors welcome."
+msgstr "в ранней альфа стадии. Помощь приветствуется."
+
+#: index.php:81
+msgid "View github repo"
+msgstr "Посмотреть Github репозиторий"
