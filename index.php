@@ -47,7 +47,7 @@ textdomain($domain);
              <li class="active"><a href="./"><?=_("Home")?></a></li>
              <li><a href="https://github.com/cjdelisle/cjdns/blob/master/README.md"><?=_("About")?></a></li>
 			 <li><a target="_blank" href="http://chat.efnet.org:9090/?channels=%23cjdns&Login=Login"><?=_("Chat")?></a></li>
-			 <li><a href="https://wiki.projectmeshnet.org/CJDNS"><?=_("Wiki")?></a></li>
+			 <li><a href="http://en.wikipedia.org/wiki/cjdns"><?=_("Wiki")?></a></li>
              <li><a href="https://github.com/cjdelisle/cjdns/blob/master/rfcs/Whitepaper.md"><?=_("Whitepaper")?></a></li>
             </ul>
             <ul class="nav pull-right">
